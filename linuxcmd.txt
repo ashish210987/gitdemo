@@ -14,3 +14,21 @@
    14  vi linuxcmd.txt
    15  history
 
+=========================Git Commands==============================
+ 8  yum install git -y
+    9  cd /opt
+   10  mkdir -p /opt/gitdemo
+   11  cd gitdemo/
+   12  git init
+   13  ls -a
+   14  vi linuxcmd.txt
+   15  history
+   16  vi linuxcmd.txt
+   17  ls -lrt
+   18  git status
+   19  git add linuxcmd.txt
+   20  git status
+   21  git commit -m"my first commit"
+   22  git status
+   23  history
+
