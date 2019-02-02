@@ -31,4 +31,103 @@
    21  git commit -m"my first commit"
    22  git status
    23  history
+=============================================2/2/19
+ 1  cat /etc/passwd
+    2  who
+    3  whoami
+    4  who i am
+    5  netstat -tulpn
+    6  ps -ef|grep 1256
+    7  ps -ef|grep 4198
+    8  vi /etc/ssh/sshd_config
+    9  service sshd restart
+   10  satus sshd.service
+   11  sshd.service status
+   12  ps -ef|grep sshd
+   13  systemctl ststus
+   14  systemctl status
+   15  clear
+   16  systemctl status
+   17  service sshd status
+   18  service sshd status -l
+   19  vi /etc/ssh/sshd_config
+   20  passwd
+   21  ll /etc/yum.repos.d
+   22  cat redhat-rhui.repo
+   23  less redhat-rhui.repo
+   24  cat  /etc/yum.repos.d/redhat-rhui.repo
+   25  clear
+   26  yum install httpd -y
+   27  rpm -qa|grep httpd
+   28  yum install git -y
+   29  cd /opt
+   30  mkdir -p /opt/gitdemo
+   31  cd gitdemo/
+   32  git init
+   33  ls -a
+   34  vi linuxcmd.txt
+   35  history
+   36  vi linuxcmd.txt
+   37  ls -lrt
+   38  git status
+   39  git add linuxcmd.txt
+   40  git status
+   41  git commit -m"my first commit"
+   42  git status
+   43  history
+   44  vi linuxcmd.txt
+   45  git status
+   46  git add linuxcmd.txt
+   47  git commit -m"my second commit"
+   48  git status
+   49  git remote add origin https://github.com/ashish210987/gitdemo.git
+   50  git push -u origin master
+   51  cd /opt
+   52  mkdir -p ansible-demo
+   53  cd ansible-demo/
+   54  cd ..
+   55  ls -lrt
+   56  mv ansible-demo /gitdemo/
+   57  ls -lrt
+   58  cd gitdemo/
+   59  ls -lrt
+   60  mkdir andible-demo
+   61  ls -lrt
+   62  rmdir andible-demo
+   63  mkdir ansible-demo
+   64  ls -lrt
+   65  pwd
+   66  cd ansible-demo/
+   67  cd ..
+   68  pwd
+   69  cd ..
+   70  ls -lrt
+   71  yum install tree -y
+   72  tree
+   73  cd gitdemo/
+   74  cd ansible-demo/
+   75  ll
+   76  pwd
+   77  cd /etc/yum.repos.d
+   78  vi ansible.repo
+   79  yum update -y
+   80  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   81  yum -y install ansible
+   82  ansible --version
+   83  cd /etc/ansible/
+   84  ls -lrt
+   85  pwd
+   86  vi hosts
+   87  cd /root/.ssh
+   88  vi server1.pem
+   89  ssh -i server1.pem ec2-user@172.31.30.100
+   90  chmod 600 server1.pem
+   91  ssh -i server1.pem ec2-user@172.31.30.100
+   92  ansible all -m raw -a 'sudo uptime'
+   93  ansible all -m raw -a 'sudo hostname'
+   94  cd /opt/gitdemo
+   95  history
+   96  ls -lrt
+   97  vi linuxcmd.txt
+   98  history
 
