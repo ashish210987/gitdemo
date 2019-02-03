@@ -130,4 +130,36 @@
    96  ls -lrt
    97  vi linuxcmd.txt
    98  history
+=============================================================03/02/19=======================================
+
+  100  git add linuxcmd.txt
+  101  git status
+  102  git commit -m"mycommit"
+  103  git status
+  104  git push
+  105  cd /opt/gitdemo/
+  106  ls -lrt
+  107  cd ansible-demo/
+  108  vi httpd.yml
+  109  pwd
+  110  vi httpd.yml
+  111  ansible-playbook httpd.yml -vvv
+  112  vi httpd.yml
+  113  ansible-playbook httpd.yml -vvv
+  114  vi httpd.yml
+  115  ansible-playbook httpd.yml -vvv
+  116  vi httpd.yml
+  117  ansible-playbook httpd.yml -vvv
+  118  vi httpd.yml
+  119  ansible-playbook httpd.yml -vvv
+  120  vi httpd.yml
+  121  ansible-playbook httpd.yml -v
+  122  ansible-playbook httpd.yml -vv
+  123  ls -lrt
+  124  vi httpd1.yml
+  125  ansible-playbook httpd1.yml -v
+  126  vi httpd1.yml
+  127  ansible-playbook httpd1.yml -v
+  128  vi httpd1.yml
+  129  history
 
