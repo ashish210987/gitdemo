@@ -162,4 +162,69 @@
   127  ansible-playbook httpd1.yml -v
   128  vi httpd1.yml
   129  history
+===============================================09/02/19===============================================
+ 142  cd /etc/ansible/
+  143  ls -lrt
+  144  cd /opt/gitdemo/ansible-demo/
+  145  ls -lrt
+  146  vi httpd1.yml
+  147  pwd
+  148  vi web_var.yml
+  149  vi httpd1.yml
+  150  ansible-playbook httpd1.yml -v
+  151  vi httpd1.yml
+  152  ansible-playbook httpd1.yml -v
+  153  pwd
+  154  cd /etc/ansible/
+  155  ll
+  156  less hosts
+  157  !
+  158  ls -lrt
+  159  pwd
+  160  cd /opt/gitdemo/ansible-demo
+  161  pwd
+  162  ls -lrt
+  163  vi loopdemo.yml
+  164  ansible-playbook loopdemo.yml -v
+  165  cat /etc/ansible/hosts
+  166  vi common_list.yml
+  167  vi listdemo.yml
+  168  vi list_demo.yml
+  169  vi common_list.yml
+  170  vi list_demo.yml
+  171  ansible-palybook list_demo.yml -v
+  172  vi list_demo.yml
+  173  ansible-playbook list_demo.yml -v
+  174  vi list_demo.yml
+  175  ansible-playbook list_demo.yml -v
+  176  vi list_demo.yml
+  177  ansible-playbook list_demo.yml -v
+  178  vi list_demo.yml
+  179  ls -lrt
+  180  vi common_list.yml
+  181  ansible-playbook list_demo.yml -v
+  182  vi list_demo.yml
+  183  ansible-playbook list_demo.yml -v
+  184  vi common_list.yml
+  185  vi list_demo.yml
+  186  ls -lrt
+  187  cd ..
+  188  git add *
+  189  git commit -m"my commit"
+  190  git push origine master
+  191  git push
+  192  ls -lrt
+  193  cd ansible-demo/
+  194  ls -lrt
+  195  vi until_demo.yml
+  196  ansible-playbook until_demo.yml -y
+  197  ansible-playbook until_demo.yml -v
+  198  vi until_demo.yml
+  199  vi lookup_plugindemo.yml
+  200  vi city-data.csv
+  201  vi lookup_plugindemo.yml
+  202  cat lookup_plugindemo.yml city-data.csv
+  203  ansible-playbook lookup_plugindemo.yml -v
+  204  cat lookup_plugindemo.yml city-data.csv
+  205  history
 
