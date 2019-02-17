@@ -13,8 +13,8 @@
     - name: Create an ec2 instance
       ec2:
          key_name: "{{ keypair }}"
-         aws_access_key: "AKIAJYYCX6F2JWSHZZMQ"  #from csv
-         aws_secret_key: "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"
+         aws_access_key: "AKIAINO2RDTT25YE6TAQ"  #from csv
+         aws_secret_key: "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"
          group: SG1  # security group name
          instance_type: "{{ instance_type}}"
          image: "{{ ami }}"
